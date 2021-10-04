@@ -19,8 +19,22 @@
 
         <div class="toolbar">
 
+            <input id="fontSize" data-x="fontSize" onkeypress="onlynumber(), valor()" class="tool--btn">
+
+            <select class="tool--btn">
+                
+                <option></option>
+             
+                <option class="fontSize" data-x="justifyLeft" data-x="fontSize" value="30">30
+                    <i class="fas fa-align-left" aria-hidden="true"></i>
+                </option>
+                    
+                <option data-x="justifyCenter">TARDE</option>
+                <option data-x="justifyLeft">NOITE</option>
+            </select>   
+
             <button type="button" data-x="justifyLeft" class="tool--btn" >
-            <i class="fas fa-align-left"></i>
+                <i class="fas fa-align-left"></i>
             </button>
            
             <button type="button" data-x="justifyCenter" class="tool--btn" >

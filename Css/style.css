@@ -34,10 +34,10 @@
 }
 
 .tool--btn{
-    
+    margin: 0px;
     border: none;
-    padding: .5rem;
-    font-size: 20px;
+    padding: 0.7rem;
+    font-size: 16px;
     cursor: pointer;
 
 }
@@ -48,7 +48,6 @@
     width: 60%;
     height: 400px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.23);
-
     padding: 20px 10px;
     
 
