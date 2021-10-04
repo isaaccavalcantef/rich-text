@@ -1,10 +1,12 @@
-const elements = document.querySelectorAll('btn')
+let output = document.getElementById('output')
+let buttons = document.getElementsByClassName('tool--btn')
 
-elements.forEach(element =>{
-    Element.addEventListenner('click', () => {
-        let command = element.dataset['x']
+console.log(buttons);
 
-        document.execCommand(command, false, null)
+for(let btn of buttons) {
+    btn.addEventListener('click', () => {
+        let cmd = btn.dataset['x']
         
+        document.execCommand(cmd, false, null)
     })
-})
+}
