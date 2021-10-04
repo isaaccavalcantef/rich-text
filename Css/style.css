@@ -1,6 +1,7 @@
 #bode {
 
     background-color: aqua;
+    
 }
 
 *,
@@ -11,11 +12,19 @@
 
 }
 
+
+#principal {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .toolbar{
 
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+  
+
     list-style: none;
     padding: 0;
     margin: 1rem;
@@ -25,7 +34,7 @@
 }
 
 .tool--btn{
-    display: block;
+    
     border: none;
     padding: .5rem;
     font-size: 20px;
@@ -34,11 +43,14 @@
 }
 
 #output {
+   
     background-color: white;
-    width: 100%;
+    width: 60%;
     height: 400px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.23);
-    margin-top: 1rem;
+
+    padding: 20px 10px;
+    
 
 
 }
